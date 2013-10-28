@@ -37,10 +37,6 @@ class BoundedQueueException extends Exception {
 }
 
 public class BoundedIntQueue {
-
-    /*
-     * CANDIDATE:  Place your implementation below.  Do not modify code above.
-     */
     private int enIndex;
     private int deIndex;
     private int counter;
@@ -74,11 +70,6 @@ public class BoundedIntQueue {
         return item;
     }
 	
-	
-    /*
-     * End candidate implementation.  Do not modify code below here.
-     */
-
     public static void main(String args[]) {
         int queueSize = 30;
         BoundedIntQueue queue = new BoundedIntQueue(queueSize);
